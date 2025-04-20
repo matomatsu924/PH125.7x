@@ -77,9 +77,9 @@ ggsave("figs/fig9.png")
 #Question 7
 Teams %>% filter(yearID%in%c(1961:2001)) %>% 
   summarize(cor(R/G,AB/G))
-
+#Question 8
 Teams %>% filter(yearID%in%c(1961:2001)) %>% 
   summarize(cor(E/G,W/G))
-
+#Question 9
 Teams %>% filter(yearID%in%c(1961:2001)) %>% 
   summarize(cor(X2B/G,X3B/G))
