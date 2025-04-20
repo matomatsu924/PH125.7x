@@ -1,6 +1,15 @@
+################################################################################
+#Section 1: Introduction to Regression
+#1.1. Baseball as a Motiviting Example
+################################################################################
+
 library(Lahman)
 library(tidyverse)
+library(writexl)
 #View(Teams)
+write_csv(Teams, "data/Teams.csv")
+write_xlsx(Teams, "data/Teams.xlsx")
+
 
 #Relación entre HR y R por juego
 Teams %>% filter(yearID%in%1961:2001) %>% 
