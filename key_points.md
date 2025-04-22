@@ -80,8 +80,6 @@ Mauricio Matoma
 
   </div>
 
-<!-- -->
-
 - The correlation coefficient is defined for a list of pairs as the sum
   of the product of the standardized values: for each observation i. The
   product term is positive when both the standardized x and y are
@@ -107,5 +105,46 @@ Mauricio Matoma
 
   - Because the sample correlation is an average of independent draws,
     the central limit theorem applies. 
+
+  </div>
+
+### 1.3. Stratification and Variance Explained
+
+### Key points
+
+- <div>
+
+  - The general idea of conditional expectation is that we stratify a
+    population into groups and compute summaries in each group.
+
+  - A practical way to improve the estimates of the conditional
+    expectations is to define strata of with similar values of x.
+
+  - If there is perfect correlation, the regression line predicts an
+    increase that is the same number of SDs for both variables. If there
+    is 0 correlation, then we don’t use x at all for the prediction and
+    simply predict the average . For values between 0 and 1, the
+    prediction is somewhere in between. If the correlation is negative,
+    we predict a reduction instead of an increase.
+
+  </div>
+
+## Bivariate Normal Distribution
+
+### Key points
+
+- <div>
+
+  - When a pair of random variables are approximated by the bivariate
+    normal distribution, scatterplots look like ovals. They can be thin
+    (high correlation) or circle-shaped (no correlation).
+
+  - When two variables follow a bivariate normal distribution, computing
+    the regression line is equivalent to computing conditional
+    expectations.
+
+  - We can obtain a much more stable estimate of the conditional
+    expectation by finding the regression line and using it to make
+    predictions.
 
   </div>

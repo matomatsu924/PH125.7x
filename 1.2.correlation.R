@@ -6,6 +6,7 @@ library(tidyverse)
 library(readxl)
 library(HistData)
 library(Lahman)
+library(writexl)
 
 data("GaltonFamilies")
 #View(GaltonFamilies)
